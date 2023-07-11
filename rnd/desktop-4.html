@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./desktop-4.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+    />
+  </head>
+  <body> 
+    <div class="desktop-4">
+      <div class="login-page">
+        <div class="welcome-to-our-community-parent">
+          <b class="welcome-to-our">Welcome to Our Community!</b>
+          <div class="join-us-and-container">
+            <span class="join-us-and-container1">
+              <p class="join-us-and">Join us and start sharing your moments.</p>
+              <p class="join-us-and">
+                Connect with friends, explore new ideas, and be inspired by a
+                vibrant community.
+              </p>
+            </span>
+          </div>
+        </div>
+        <div class="login-form">
+          <div class="log-in">Log In</div>
+          <div class="username-parent">
+            <b class="username">Username</b>
+            <img
+              class="input-username-icon"
+              alt=""
+              src="./public/inputusername.svg"
+            />
+          </div>
+          <div class="password-parent">
+            <b class="password">Password</b>
+            <img
+              class="input-username-icon"
+              alt=""
+              src="./public/inputusername.svg"
+            />
+
+            <div class="instance-parent">
+              <img class="frame-child122" alt="" src="./public/frame-39.svg" />
+
+              <div class="username">Keep me logged in</div>
+            </div>
+            <div class="username">Forgot username or password?</div>
+          </div>
+          <div class="vector-parent1" id="frameContainer4">
+            <img class="frame-child123" alt="" src="./public/vector-1.svg" />
+
+            <b class="log-in1">Log In</b>
+          </div>
+          <div class="line-parent">
+            <div class="frame-child124"></div>
+            <div class="or">or</div>
+            <div class="frame-child124"></div>
+          </div>
+          <div class="google">
+            <div class="button"></div>
+            <div class="continue-with-google">Continue with Google</div>
+            <img class="vector-icon7" alt="" src="./public/vector4.svg" />
+          </div>
+          <div class="facebook">
+            <div class="button"></div>
+            <div class="continue-with-google">Continue with Facebook</div>
+            <img class="vector-icon8" alt="" src="./public/vector5.svg" />
+          </div>
+          <div class="apple">
+            <div class="button"></div>
+            <div class="continue-with-google">Continue with Apple</div>
+            <img class="vector-icon9" alt="" src="./public/vector6.svg" />
+          </div>
+          <div class="become-a-member-container" id="becomeAMember">
+            <span>
+              <span class="become-a-member">Become a member</span>
+              <b class="join-moodpix"> </b>
+            </span>
+            <b class="join-moodpix">
+              <span>Join MoodPix</span>
+            </b>
+          </div>
+          <div class="by-joining-moodpix-i-confirm-wrapper">
+            <div class="by-joining-moodpix">
+              By joining MoodPix, I confirm that I have read and agree to the
+              MoodPix Terms of Service and Privacy Policy.
+            </div>
+          </div>
+          <img
+            class="vector-icon10"
+            alt=""
+            src="./public/vector7.svg"
+            id="vectorIcon3"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var frameContainer4 = document.getElementById("frameContainer4");
+      if (frameContainer4) {
+        frameContainer4.addEventListener("click", function (e) {
+          window.location.href = "./desktop-1.html";
+        });
+      }
+      
+      var becomeAMember = document.getElementById("becomeAMember");
+      if (becomeAMember) {
+        becomeAMember.addEventListener("click", function (e) {
+          window.location.href = "./desktop-8.html";
+        });
+      }
+      
+      var vectorIcon3 = document.getElementById("vectorIcon3");
+      if (vectorIcon3) {
+        vectorIcon3.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      </script>
+  </body>
+</html>
